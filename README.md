@@ -18,3 +18,5 @@ Este repositorio contiene ejercicios y trabajos prácticos resueltos de la mater
 ---
 
 *Repositorio personal con fines educativos*
+*NADA del contenido fue revisado por la cátedra*
+*PUEDEN HABER ERRORES*
