@@ -9,4 +9,4 @@ void eliminaVoc(char * str);
 
 void secuenciaAsc(int v[], int dim, int * comienzo, int * longitud);
 
-#endif
+#endif // _1P_2022_1C_H

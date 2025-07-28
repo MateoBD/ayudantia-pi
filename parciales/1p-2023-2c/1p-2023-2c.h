@@ -11,4 +11,4 @@ void bordes(int mat[][M_EJ2], int sumas[]);
 
 int anagrama(char * s1, char * s2);
 
-#endif
+#endif // _1P_2023_2C_H
