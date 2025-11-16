@@ -1,5 +1,5 @@
-#ifndef _2R_2025_1C_EJ1
-#define _2R_2025_1C_EJ1
+#ifndef _2R_2025_1C_EJ1_H
+#define _2R_2025_1C_EJ1_H
 
 #include <stddef.h>
 

@@ -37,7 +37,6 @@ static void free_list_rec(Tlist list)
         return;
     }
     free_list_rec(list->tail);
-    free(list->head); // reservé espacio para el elemento, pues es una COPIA
     free(list);
 }
 
@@ -53,7 +52,7 @@ static Tlist add_list_rec(Tlist list, elemType elem, char * added, compare_funct
     {
         Tlist new_node = malloc(sizeof(*new_node));
 
-        new_node->head = strdup(elem);
+        new_node->head = elem;
         new_node->tail = list;
         *added = 1;
         return new_node;
