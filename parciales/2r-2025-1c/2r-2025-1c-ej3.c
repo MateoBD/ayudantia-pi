@@ -7,7 +7,7 @@ TList upPop(TList list, const char * person, unsigned int popularity)
 {
     if (list == NULL) {
         TList new_node = malloc(sizeof(*new_node));
-        new_node->person = person;
+        new_node->person = strdup(person);
         new_node->popularity = popularity;
         new_node->tail = list;
         return new_node;

@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 typedef struct node { 
-   const char * person; 
+   char * person; 
    unsigned int popularity; 
    struct node * tail; 
 } node; 

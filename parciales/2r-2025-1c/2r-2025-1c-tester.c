@@ -12,6 +12,7 @@ static void free_list_rec(TList list)
         return;
     }
     free_list_rec(list->tail);
+    free(list->person);
     free(list);
 }
 
